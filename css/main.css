@@ -65,8 +65,12 @@ h1 {
     
 }
 
-#photo_gallery img {
+#photo_gallery a {
     margin-top: 15px;
     margin-bottom: 15px;
     flex-basis: 40%;
+}
+
+#photo_gallery img {
+    width: 100%;
 }
