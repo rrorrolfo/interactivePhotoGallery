@@ -21,57 +21,69 @@
 
         <section id="search_section">
             <label for="string_to_search">Look for your prefered nature landscape:</label>
-            <input type="text" id="string_to_search" name="string_to_search" placeholder="Search (16pt)">
+            <input type="text" id="string_to_search" onkeyup="search();" name="string_to_search" placeholder="Search (16pt)">
         </section>
 
         <section id="photo_gallery">
 
             <a href="photos/01.jpg" data-lightbox="image-1" data-title="Hay Bales <br>I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
                 <img src="photos/thumbnails/01.jpg" alt="Hay bales" title="Hay bales">
+                <p class="search_text">Hay Bales <br>I love hay bales. Took this snap on a drive through the countryside past some straw fields.</p>
             </a>
             
             <a href="photos/02.jpg" data-lightbox="image-1" data-title="Lake <br>The lake was so calm today. We had a great view of the snow on the mountains from here.">
                 <img src="photos/thumbnails/02.jpg" alt="Lake" title="Lake">
+                <p class="search_text">Lake <br>The lake was so calm today. We had a great view of the snow on the mountains from here.</p>
             </a>
 
             <a href="photos/03.jpg" data-lightbox="image-1" data-title="Canyon <br>I hiked to the top of the mountain and got this picture of the canyon and trees below.">
                 <img src="photos/thumbnails/03.jpg" alt="Canyon" title="Canyon">
+                <p class="search_text">Canyon <br>I hiked to the top of the mountain and got this picture of the canyon and trees below.</p>
             </a>
 
             <a href="photos/04.jpg" data-lightbox="image-1" data-title="Iceberg <br>It was amazing to see an iceberg up close, it was so cold but didn’t snow today.">
                 <img src="photos/thumbnails/04.jpg" alt="Iceberg" title="Iceberg">
+                <p class="search_text">Iceberg <br>It was amazing to see an iceberg up close, it was so cold but didn’t snow today.</p>
             </a>
 
             <a href="photos/05.jpg" data-lightbox="image-1" data-title="Desert <br>The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.">
                 <img src="photos/thumbnails/05.jpg" alt="Desert" title="Desert">
+                <p class="search_text">Desert <br>The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.</p>
             </a>
 
             <a href="photos/06.jpg" data-lightbox="image-1" data-title="Fall <br>Fall is coming, I love when the leaves on the trees start to change color.">
                 <img src="photos/thumbnails/06.jpg" alt="fall" title="fall">
+                <p class="search_text">Fall <br>Fall is coming, I love when the leaves on the trees start to change color.</p>
             </a>
 
             <a href="photos/07.jpg" data-lightbox="image-1" data-title="Plantation <br>I drove past this plantation yesterday, everything is so green!">
                 <img src="photos/thumbnails/07.jpg" alt="Plantation" title="Plantation">
+                <p class="search_text">Plantation <br>I drove past this plantation yesterday, everything is so green!</p>
             </a>
 
             <a href="photos/08.jpg" data-lightbox="image-1" data-title="Dunes <br>My summer vacation to the Oregon Coast. I love the sandy dunes!">
                 <img src="photos/thumbnails/08.jpg" alt="Dunes" title="Dunes">
+                <p class="search_text">Dunes <br>My summer vacation to the Oregon Coast. I love the sandy dunes!</p>
             </a>
 
             <a href="photos/09.jpg" data-lightbox="image-1" data-title="Country side lane <br>We enjoyed a quiet stroll down this countryside lane.">
                 <img src="photos/thumbnails/09.jpg" alt="Country side lane" title="Country side lane">
+                <p class="search_text">Country side lane <br>We enjoyed a quiet stroll down this countryside lane.</p>
             </a>
 
             <a href="photos/10.jpg" data-lightbox="image-1" data-title="Sunset <br>Sunset at the coast! The sky turned a lovely shade of orange.">
                 <img src="photos/thumbnails/10.jpg" alt="Sunset" title="Sunset">
+                <p class="search_text">Sunset <br>Sunset at the coast! The sky turned a lovely shade of orange.</p>
             </a>
 
             <a href="photos/11.jpg" data-lightbox="image-1" data-title="Cave <br>I did a tour of a cave today and the view of the landscape below was breathtaking.">
                 <img src="photos/thumbnails/11.jpg" alt="Cave" title="Cave">
+                <p class="search_text">Cave <br>I did a tour of a cave today and the view of the landscape below was breathtaking.</p>
             </a>
 
             <a href="photos/12.jpg" data-lightbox="image-1" data-title="Bluebells <br>I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.">
                 <img src="photos/thumbnails/12.jpg" alt="Bluebells" title="Bluebells">
+                <p class="search_text">Bluebells <br>I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.</p>
             </a>
 
         </section>
@@ -85,6 +97,7 @@
         wrapAround: true,
         positionFromTop: 75
     })</script>
+    <script src="js/app.js"></script>
   </body>
 </html>
 

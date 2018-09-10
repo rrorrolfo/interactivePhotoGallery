@@ -74,3 +74,9 @@ h1 {
 #photo_gallery img {
     width: 100%;
 }
+
+/****** Search text  ***********/
+
+.search_text {
+    display: none;
+}
