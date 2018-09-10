@@ -1,10 +1,9 @@
 // VARIABLES:
 
 const search_text = document.querySelectorAll(".search_text");
-const search_input = document.querySelector("input");
-const images = document.querySelectorAll("#photo_gallery a");
+const search_input = document.querySelector("#string_to_search");
 
-// FUNTIONS
+// FUNCTION:
 
 function search() {
     
@@ -13,10 +12,15 @@ function search() {
     for (let i = 0; i < search_text.length; i += 1) {
 
         if (search_text[i].textContent.toUpperCase().indexOf(filt) > -1){
-            search_text[i].previousElementSibling.style.display = "block";
+
+            search_text[i].parentNode.style.display = "block";
+            search_text[i].parentNode.setAttribute("data-lightbox","image-1");
+
             }
             else {
-                search_text[i].previousElementSibling.style.display = "none"
+                search_text[i].parentNode.style.display = "none";
+                search_text[i].parentNode.removeAttribute("data-lightbox");
+
             }
         
     }
